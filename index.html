@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
+
+<body id="body">
+    <div class="nav">
+        <ul class="menu">
+            <li>Для бизнеса</li>
+            <li>Помощь</li>
+            <li>Вопрос-ответ</li>
+            <li>Услуги</li>
+            <li>Окомпании</li>
+        </ul>
+    </div>
+    <header class="header">
+        <div class="a">
+            <div class="logo">
+                <picture>
+                    <source media="(min-width: 992px)" srcset="./img/logo.svg">
+                    <source media="(max-width: 992px)" srcset="./img/min-logo.svg">
+                    <img class="trend-picture" src="./img/logo.svg" alt="picture-flowers">
+                </picture>
+            </div>
+            <a class="moscow" href="#0">Москва</a>
+            <button class="categories-btn onclick">Категории<img src="./img/Vector 1.svg" alt=""></button>
+            <div class="search-block">
+                <img class="sliders-ico onclick" src="./img/sliders.svg" alt="">
+                <img class="search-ico" src="./img/zoom-out.svg" alt="">
+                <input class="search" type="text" placeholder="Поиск по объявлениям">
+            </div>
+            <img class="like-header" src="./img/like.svg" alt="">
+            <button class="enter">Войти</button>
+        </div>
+    </header>
+    <div class="authorization">
+        <div class="contant">
+            <img src="./img/image 13.svg" alt="">
+            <span>Войдите или зарегиструйтесь, чтобы создавать или смотреть свои объявления</span>
+            <button class="login">Войти</button>
+            <button class="registration">Зарегистрироваться</button>
+        </div>
+    </div>
+    <div class="popup">
+        <div class="categories">
+            <div class="all-categories">
+                <div class="map">
+                    <a class="moscow smal" href="#0">Москва</a>
+                    <button>Поиск на карте</button>
+                </div>
+                <h2>Все катеории</h2>
+            </div>
+
+            <div class="list">
+                <div class="reveal">
+                    <button class="reveal-btn">Тендеры</button>
+                    <div class="description">
+                        <h1>ТЕСТ 1</h1>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <button class="reveal-btn">Услуги</button>
+                    <div class="description">
+                        <h1>Услуги</h1>
+                        <div class="lists">
+                            <ul>
+                                <li><a href="#0">Транспорт</a></li>
+                                <li><a href="#0">Аренда авто</a></li>
+                                <li><a href="#0">Грузоперевозки</a></li>
+                                <li><a href="#0">Грузчики</a></li>
+                                <li><a href="#0">Аренда спецтехники</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#0">Реклама, полиграфия</a></li>
+                                <li><a href="#0">Маркетинг, реклама, PR</a></li>
+                                <li><a href="#0">Полиграфия дизайн</a></li>
+                            </ul>
+                            <ul>
+                                <li><a href="#0">Уборка</a></li>
+                                <li><a href="#0">Вывоз мусора</a></li>
+                                <li><a href="#0">Простая уборка</a></li>
+                                <li><a href="#0">Мойка окон</a></li>
+                            </ul>
+                        </div>
+                        <div class="links">
+                            <ul>
+                                <li><a href="">Флористы, декораторы</a></li>
+                                <li><a href="">Промо модели</a></li>
+                                <li><a href="">Переводчики</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <button class="reveal-btn">Товары</button>
+                    <div class="description">
+                        <h1>ТЕСТ 2</h1>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <button class="reveal-btn">Аренда</button>
+                    <div class="description">
+                        <h1>ТЕСТ 3</h1>
+                    </div>
+                </div>
+                <div class="reveal">
+                    <button class="reveal-btn">Работа</button>
+                    <div class="description">
+                        <h1>ТЕСТ 4</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <main class="main">
+        <div class="cards">
+            <div class="card">
+                <span>Тендеры</span>
+                <img src="./img/image 1.svg" alt="">
+            </div>
+            <div class="card">
+                <span>Услуги</span>
+                <img src="./img/image 2.svg" alt="">
+            </div>
+            <div class="card">
+                <span>Товары</span>
+
+            </div>
+            <div class="card">
+                <span>Аренда</span>
+
+            </div>
+            <div class="card">
+                <span>Работа</span>
+
+            </div>
+        </div>
+        <div class="recommendations_head">
+            <h1>Рекомендации для вас</h1>
+            <div class="btns">
+                <button>Все</button>
+                <button>Тренды</button>
+                <button>Услуги</button>
+                <button>Товары</button>
+                <button>Работа</button>
+                <button>Аренда</button>
+            </div>
+            <select class="select">
+                <option value="">По популярности</option>
+            </select>
+        </div>
+        <div class="services">
+            <section>
+                <img class="services-img" src="./img/image 3.svg" alt="">
+                <div class="text">
+                    <p>Услуги</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Услуги флориста</h2>
+                    <strong>от 1 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 4.svg" alt="">
+                <div class="text">
+                    <p>Тендер</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Застройка выстовочных стендов</h2>
+                    <strong>2 500 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 5.svg" alt="">
+                <div class="text">
+                    <p>Услуги</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Типография РАСТР</h2>
+                    <strong>от 500 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 6.svg" alt="">
+                <div class="text">
+                    <p>Аренда</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Аренда автомобилей бизнес-класса</h2>
+                    <strong>от 10 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 7.svg" alt="">
+                <div class="text">
+                    <p>Услуги</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Услуги флориста</h2>
+                    <strong>от 1 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 8.svg" alt="">
+                <div class="text">
+                    <p>Тендер</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Застройка выстовочных стендов</h2>
+                    <strong>2 500 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 9.svg" alt="">
+                <div class="text">
+                    <p>Услуги</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Типография РАСТР</h2>
+                    <strong>от 500 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+            <section>
+                <img class="services-img" src="./img/image 10.svg" alt="">
+                <div class="text">
+                    <p>Аренда</p>
+                    <div class="like">
+                        <img src="./img/like.svg" alt="">
+                        <div class="options">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <h2>Аренда автомобилей бизнес-класса</h2>
+                    <strong>от 10 000 ₽</strong>
+                    <span>Москва, р-н Дзержинский</span>
+                    <span>Вчера, 18:42</span>
+                </div>
+            </section>
+        </div>
+    </main>
+    <div class="b">
+        <footer class="footer">
+            <div class="footer-nav">
+                <img src="./img/zoom-out.svg" alt="">
+                <span>Поиск</span>
+            </div>
+            <div class="footer-nav">
+                <img src="./img/heart.svg" alt="">
+                <span>Избранное</span>
+            </div>
+            <div class="footer-nav-main">
+                <div class="nav-main">
+                    <span>+</span>
+                </div>
+
+                <span class="ads">Объявления</span>
+            </div>
+            <div class="footer-nav">
+                <img src="./img/message-circle.svg" alt="">
+                <span>Сообщения</span>
+            </div>
+            <div class="footer-nav">
+                <img src="./img/user.svg" alt="">
+                <span>Войти</span>
+            </div>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
